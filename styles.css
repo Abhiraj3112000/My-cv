@@ -1,0 +1,39 @@
+body {
+    background-color: #ffe9d6;
+}
+/*implementing bottom border to the image using its container class "profile pic" */
+.profile_pic {
+    border-bottom: 3px dotted lightgray;
+    border-style: none none solid;
+    /*top = none sides = none bottom = solid*/
+}
+
+.profile_pic:hover{
+    color:gold;
+}
+/*main heading is an id element specific for only one tag - styling done below*/
+#main_heading{
+    color: brown;
+}
+#main_heading:hover{
+    color:blue;
+} 
+hr {
+    background-color: transparent;
+    border-style: none;
+    border-top: 4px dotted grey;
+    height: 4px;
+    width: 5%;
+}
+.circular{
+    border-radius:70%;
+}
+
+h3,
+h1 {
+    color: brown;
+}
+/*virtual class :hover to impart hovering property to the specified element*/
+h3:hover {
+    color: blue;
+}
